@@ -33,7 +33,8 @@ const drinkClass = (drink) => {
 
     let drinkIngredients = []
     for (let i = 1; i < 14; i++) {
-        if (drink["strIngredient" + 1] !== null) {
+        //console.log((drink["strIngredient" + i]))
+        if (drink["strIngredient" + i] !== null) {
             let ingredient = []
             ingredient.push(drink["strMeasure" + i])
             ingredient.push(drink["strIngredient" + i])
