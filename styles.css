@@ -9,15 +9,44 @@ body {
     margin: auto;
     font-family: Xanh Mono;
     letter-spacing: 5px;
+    background-color: #dbdbdb;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
 }
 
 h1 {
     margin-top: 50px;
 }
 
+#drinkContainer {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    text-align: left;
+}
+
 #buttonContainer {
     width: fit-content;
     margin: auto;
-    margin-top: 50vh;
+    padding: 20px;
 }
 
+button {
+    border: none;
+    background-color: #dbdbdb;
+    border: solid black 1px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+
+button:hover {
+    font-size: 20px;
+    color: #7b6c80;
+}
