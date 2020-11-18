@@ -63,25 +63,25 @@ const displayDrink = (newDrink) => {
 
         let nameOfDrink = document.createElement("h3");
         nameOfDrink.innerHTML = newDrink.drinkName;
-        drinkContainer.append(nameOfDrink);
+        drinkResults.append(nameOfDrink);
 
         let alcoholicOrNot = document.createElement("p");
         alcoholicOrNot.innerHTML = newDrink.isAlcoholic;
-        drinkContainer.append(alcoholicOrNot);
+        drinkResults.append(alcoholicOrNot);
 
         let categoryOfDrink = document.createElement("p");
         categoryOfDrink.innerHTML = newDrink.drinkCategory;
-        drinkContainer.append(categoryOfDrink);
+        drinkResults.append(categoryOfDrink);
 
         let glassForDrink = document.createElement("p");
         glassForDrink.innerHTML = newDrink.glassType;
-        drinkContainer.append(glassForDrink);
+        drinkResults.append(glassForDrink);
 
-        let ingredientsForDrink = document.createElement("p");
+        let ingredientsForDrink = document.createElement("li");
         ingredientsForDrink.innerHTML = newDrink.drinkIngredients;
-        drinkContainer.append(ingredientsForDrink);
+        drinkResults.append(ingredientsForDrink);
 
         let instructionsForDrink = document.createElement("p");
         instructionsForDrink.innerHTML = newDrink.drinkInstructions;
-        drinkContainer.append(instructionsForDrink);
+        drinkResults.append(instructionsForDrink);
 }

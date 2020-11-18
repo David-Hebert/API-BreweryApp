@@ -9,7 +9,7 @@ body {
     margin: auto;
     font-family: Xanh Mono;
     letter-spacing: 5px;
-    background-color: #dbdbdb;
+    background-color: #ebebeb;
     text-align: center;
 }
 
@@ -27,6 +27,10 @@ h1 {
     margin: auto;
     padding: 20px;
     text-align: left;
+}
+
+#drinkContainer div {
+    padding-top: 10px;
 }
 
 #buttonContainer {
